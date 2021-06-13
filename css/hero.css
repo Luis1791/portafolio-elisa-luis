@@ -1,3 +1,42 @@
-.hero{
-	background-color: red;
+.hero {
+	max-width: 100%;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin: 0 auto;
+}
+.imagen {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+
+}
+.imagen img {
+	max-width: 100%
+	
+}
+.texto {
+	width: 100%;
+	height: 100%;
+}
+.texto h1 {
+	font-family: 'Oxygen', sans-serif;
+	font-weight: 700;
+	font-size: 48px;
+}
+.texto h1 span {
+	font-size: 59px;
+}
+.text p {
+	font-family: 'Oxygen', sans-serif;
+	font-size: 16px;
+}
+
+@media screen and (min-width: 1024px){
+	.hero{
+		flex-direction: row-reverse;
+	}
 }

@@ -1,4 +1,4 @@
-header{
+header {
 	width: 100vw;
 	height: 60px;
 	display: flex;
@@ -6,7 +6,7 @@ header{
 	align-items: center;
 }
 
-.logo{
+.logo {
 	margin-left: 16px;
 	font-size: 25px;
 	color: #000;
@@ -15,11 +15,11 @@ header{
 	font-family: 'Poppins', sans-serif;
 }
 
-header nav{
+header nav {
 	display: none;
 }
 
-.btn-cv{
+.btn-cv {
 	margin-right: 16px;
 	font-size: 14px;
 	text-transform: uppercase;
